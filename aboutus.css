@@ -1,0 +1,155 @@
+
+center{
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 15px;
+  }
+  
+  .nav {
+    border: 2px solid blueviolet;
+    border-width: 3px 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .nav li {
+    display: inline;
+  }
+  .nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+  }
+  
+  .flex1{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  }
+  
+  .flex2{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 360px;
+  margin-bottom: 20px;
+  }
+  
+  .flex3{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 150px;
+  margin-bottom: 20px;
+  }
+  
+  p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  h1{
+    color: maroon;
+    margin: 20px;
+  }
+  
+  .para1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    text-align: justify;
+    font-size: 20px; 
+  }
+  
+  .para2{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 20px;
+    text-align: justify; 
+    font-size: 20px;
+  }
+  
+  .para3{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 40px;
+    text-align: justify;
+    font-size: 20px; 
+  }
+  
+  .sec1{
+    display: flex;
+    font-size: 30px;
+    padding: 40px;
+    background-color: black;
+    border: 3px solid black;
+  }
+  
+  .section-para{
+    background-color: black;
+    color: white;
+    padding: 50px 0px 70px 20px;
+  }
+  
+  .input1{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    font-size: 15px;
+    padding: 0px;
+    margin: 80px 10px 80px 360px;
+  }
+  
+  .btn1{
+    background-color: rgb(255, 196, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 80px 20px 80px 20px;
+    padding: 5px 40px 5px 40px;
+    cursor: pointer;
+  }
+  
+  .btn1:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  .ourvision{
+  font-size: 40px;
+  margin:0px 170px 100px 0px ;
+  }
+  
+  .ourprocess{
+    font-size: 40px;
+    margin:0px 0px 150px 0px ;
+  }
+  
+  .ourapproach{
+    font-size: 40px;
+    margin:0px 170px 100px 0px ;
+  }
+
+  .before-footer{
+    margin-bottom: 10px;
+  }
+

@@ -1,0 +1,45 @@
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.cart-item{
+display: flex;
+margin: 20px;
+justify-content: space-between;
+}
+.image img{
+    width: 180px;
+    height:180px;
+}
+.counter{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 10%; 
+}
+.price{
+text-align: right;
+}
+.subtotal{
+display: flex ;
+justify-content: flex-end;
+}
+.subtotal table
+{
+border-top: 3px solid #ff523b;
+width: 100%;
+max-width: 380px;
+margin-right: 17px;
+}
+td:last-child{
+text-align: right;
+margin-right: 10px;
+
+}
+.btn{
+    display: flex;
+    float: right;
+}
