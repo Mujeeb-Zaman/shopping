@@ -1,7 +1,4 @@
 
-body{
-    background-color: aquamarine;
-}
 .header{
     display: flex;
     justify-content: space-between;
