@@ -39,20 +39,43 @@
   <body>
     <!-- Nav bar -->
 
-    <div class="About-us">   <!--declaring parent div class as 'about-us' -->
-    <header>   <!-- using header -->
-      <!-- Navigation Bar Start -->
-  <nav>            
-      <h2>ABC COLLECTION KING</h2>
-      <ul>
-        <li>  <a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>      
-        <li>  <a href="products.html"><i class="fa-solid fa-store"></i> Products</a></li>
-        <!-- <li> <a href="#">Single Product</a></li> -->
-        <li> <a href="cartProducts.html"><i class="fa-solid fa-cart-shopping"></i> Cart</a></li>
-        <li><a href="aboutus.html"><i class="fa-solid fa-clipboard"></i> About Us</a></li>
-        <li><a href="form.html"><i class="fa-sharp fa-solid fa-envelope"></i> Contact Us</a></li>
-    </ul>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BLAKE MART</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Cosmetics</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Food</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria="true">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
       <!-- Navigation Bar End -->
   </header>
 
