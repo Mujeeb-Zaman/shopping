@@ -1,0 +1,3 @@
+[submodule ="shopping/shoppingsite"]
+path = shopping/shoppingsite
+url = https://github.com/Mujeeb-Zaman/shopping.git
