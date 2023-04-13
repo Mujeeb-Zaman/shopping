@@ -18,6 +18,7 @@
       }
 
       .navbar-brand,.sp1{
+        font-weight: bold;
         color: green !important;
       }
 
@@ -62,6 +63,28 @@
 
       .fa-twitter{
         color: #55acee;
+      }
+
+      .text-uppercase:hover,.navbar-brand:hover{
+        color: yellowgreen !important;
+        transition: 0.5s;
+      }
+
+      .btn1{
+        background-color: lightgreen;
+        border: none;
+      }
+
+      .btn1:hover{
+        background-color: white;
+      }
+      .checkOut{
+        text-decoration: none;
+        color: black !important;
+      }
+
+      .text-reset:hover{
+        color: black !important;
       }
     </style>
 
@@ -123,7 +146,7 @@
                   <div class="row">
       
                     <div class="col-lg-7">
-                      <h5 class="mb-3"><a href="#!" class="text-body"><i
+                      <h5 class="mb-3"><a href="products.html" class="text-body"><i
                             class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping</a></h5>
                       <hr>
       
@@ -249,7 +272,7 @@
                     </div>
                     <div class="col-lg-5">
       
-                      <div class="card bg-primary text-white rounded-3">
+                      <div class="card bg-success bg-gradient text-white rounded-3">
                         <div class="card-body">
                           <div class="d-flex justify-content-between align-items-center mb-4">
                             <h5 class="mb-0">Card details</h5>
@@ -313,10 +336,9 @@
                             <p class="mb-2">$4818.00</p>
                           </div>
       
-                          <button type="button" class="btn btn-info btn-block btn-lg">
+                          <button type="button" class="btn1 btn-info btn-block btn-lg">
                             <div class="d-flex justify-content-between">
-                              <span>$4818.00</span>
-                              <span>Checkout <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
+                              <span><a href="invoice.html" class="checkOut">Check out</a></span>
                             </div>
                           </button>
       
