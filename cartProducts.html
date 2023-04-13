@@ -33,56 +33,85 @@
       h6{
         color: green !important;
       }
+      .fa-google {
+        background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .fa-instagram{
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .fa-linkedin{
+        color: #0082ca;
+      }
+
+      .fa-github{
+        color:black;
+      }
+
+      .fa-facebook-f{
+        color: #3b5998;
+      }
+
+      .fa-twitter{
+        color: #55acee;
+      }
     </style>
 
 </head>
 <body>
-  <!-- nav bar  -->
-  
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">BLAKE MART</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75 justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="page1.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="productswithbootstrap.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cartProducts.html">Cart</a>
-          </li>
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Products
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Cosmetics</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Food</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Fashion</a></li>
-            </ul>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="formwithbootstrap.html" tabindex="-1" aria="true">Contact us</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+<!-- Nav bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">BLAKE MART</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 w-75 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li> <a class="dropdown-item" href="products.html">All Products</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="cosmetic.html">Cosmetics</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="food.html">Food</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="fashion.html">Fashion</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cartProducts.html">Cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="formwithbootstrap.html" tabindex="-1" aria="true">Contact us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
       </div>
-    </div>
-  </nav>
-      <!-- nav end -->
+    </nav>
+<!-- nav end -->
 
       <section class="h-100 h-custom" style="background-color: #eee;">
         <div class="container py-5 h-100">
@@ -387,10 +416,10 @@
                   Useful links
                 </h6>
                 <p>
-                  <a href="page1.html" class="text-reset">Home</a>
+                  <a href="index.html" class="text-reset">Home</a>
                 </p>
                 <p>
-                  <a href="productswithbootstrap.html" class="text-reset">Products</a>
+                  <a href="products.html" class="text-reset">Products</a>
                 </p>
                 <p>
                   <a href="aboutus.html" class="text-reset">About Us</a>
