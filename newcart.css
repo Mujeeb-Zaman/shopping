@@ -7,6 +7,13 @@
 
 }
 
+.products-container ion-icon{
+    font-size: 35px;
+    color: green;
+    margin-left: 0 10px;
+    cursor: pointer;
+}
+
 .product-header {
     width: 90%;
     display: flex;
@@ -45,4 +52,15 @@
     /* flex-direction: row; */
     align-items: center;
     justify-content: space-around;
+}
+
+.basketTotalContainer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotal{
+    width: 10%;
 }
