@@ -100,25 +100,24 @@ function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".products");
-    let cartCost = localStorage.getItem("totalcost");
+    let cartCost = localStorage.getItem("totalCost");
 
     if (cartItems && productContainer) {
         productContainer.innerHTML = '';
         Object.values(cartItems).map(item => {
-            console.log(item);
             productContainer.innerHTML += `
             <div class="test">
             <div>
                 ${item.name}
            </div>
-            <div>$          ${item.price}.00</div>
-            <div >
+            <div>$${item.price}.00</div>
+            <div>
                 <ion-icon class="decrease" name="arrow-dropleft-circle"></ion-icon>
                 <span>${item.inCart}</span>
                 <ion-icon class="increase" name="arrow-dropright-circle"></ion-icon>
             </div>
             <div >
-                $${item.inCart * item.price},00
+                $${item.inCart * item.price}.00
             </div>
             </div>
             `;
@@ -130,7 +129,7 @@ function displayCart() {
                     Basket Total
                 </h4>
                 <h4 class="basketTotal">
-                    $${cartCost},00 
+                    $${cartCost}.00 
                 </h4>
         `;
     }
@@ -140,7 +139,6 @@ function displayCart() {
 
 
 window.onload = function () {
-    console.log("hellow")
     displayCart();
 };
 
